@@ -1,0 +1,7 @@
+pasos que hay que dar
+npm install express-generator -generator
+express myApp --ejs
+si da error el error es que en el sistema esta deshabilitada la ejecución de scripts o esta «Restringido». Si abrimos el Windows PowerShell como administrador y ejecutamos el comando «Get-ExecutionPolicy» nos tendría que devolver «Restricted» o lo que es lo mismo «Restringido». Para cambiar esta configuración basta con ejecutar «Set-ExecutionPolicy Unrestricted» y indicar Si[S].
+En ese momento ya se pueden ejecutar scripts sin problemas. Nuevamente si vuelves a ejecutar «Get-ExecutionPolicy» verás que ya aparece como «Unrestricted».
+
+npm init
